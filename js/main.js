@@ -280,7 +280,7 @@ new ScrollMagic.Scene({
 
 new ScrollMagic.Scene({
   triggerElement: ".is_you",
-  triggerHook: 0.9,
+  triggerHook: 0.6,
 })
   .setTween(IsScrollMove)
   .addTo(new ScrollMagic.Controller())
